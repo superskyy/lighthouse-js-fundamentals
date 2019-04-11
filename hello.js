@@ -5,3 +5,4 @@ function sayHello(name) {
 sayHello("Caliban");
 sayHello("Miranda");
 sayHello("Ferdinand");
+sayHello("Edward");
