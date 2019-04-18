@@ -1,13 +1,13 @@
 const instructorWithLongestName = function(instructors) {
   // Put your solution here
-  var longest = "";
+  var longest = [];
   for (var i = 0; i < instructors.length; i++) {
   	if (longest.length < instructors[i].name.length) {
   	 	longest = instructors[i].name;
-  	 	// var index = instructors.indexOf(instructors[i].name);
-  	 	// return longest;
+  	 	// var index = instructors.indexOf(instructor[i].name);
   	}
   }
+  // return index;
   return longest;
 };
 
