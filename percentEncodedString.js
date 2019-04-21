@@ -4,8 +4,8 @@ const urlEncode = function(text) {
   var char = "%20";
   for (var i = 0; i < text.length; i++) {
     if (text[0] === " ") {
-      return text[0] = "Lighthouse%20Labs";
-      }
+      text = text.trim();
+    }
     if (text[i] === " ") {
       string = string + char;
     } else {
